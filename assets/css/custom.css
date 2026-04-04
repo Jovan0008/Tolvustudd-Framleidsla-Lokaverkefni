@@ -32,6 +32,21 @@
 	font-weight: 700;
 }
 
+/* Sub-navigation (nested items) */
+.nav-sub {
+	padding-left: 1rem;
+}
+
+.nav-sub li a {
+	font-size: 0.8rem !important;
+	padding: 0.2rem 0 !important;
+	color: rgba(255, 255, 255, 0.45) !important;
+}
+
+.nav-sub li a:hover {
+	color: rgba(255, 255, 255, 0.85) !important;
+}
+
 /* === Process log entries === */
 .log-entry {
 	border-left: 4px solid #49bf9d;
