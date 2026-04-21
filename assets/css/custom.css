@@ -104,3 +104,47 @@ section {
 		font-size: 0.8rem;
 	}
 }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+#header .inner {
+  min-height: 100%;
+}
+
+#main {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 1200px) {
+  #header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow-y: visible;
+    left: auto;
+    top: auto;
+  }
+
+  #main {
+    margin-left: 0 !important;
+    width: 100%;
+  }
+}
