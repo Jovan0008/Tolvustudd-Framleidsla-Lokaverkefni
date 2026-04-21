@@ -3232,3 +3232,15 @@ input, select, textarea {
 	background: #f3f3f3;
 	}
 	
+.hero-wrapper {
+  display: flex;
+  gap: 1rem;
+  overflow: hidden; /* remove scrollbar */
+}
+
+.hero-image {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 1; /* allow images to shrink to fit */
+}
