@@ -3259,3 +3259,35 @@ input, select, textarea {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   display: inline-block;
 }
+
+.image-section {
+  padding: 3em 1em;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.image-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.image-grid figcaption {
+  margin-top: 0.7em;
+  font-size: 0.95em;
+  color: #666;
+  line-height: 1.4;
+}
